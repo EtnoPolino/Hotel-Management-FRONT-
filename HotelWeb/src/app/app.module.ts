@@ -14,11 +14,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DemoNgZorroAntdModule } from './DemoNgZorroAntdModule';
 import { RegisterComponent } from './auth/components/register/register.component';
+import { LoginComponent } from './auth/components/login/login.component';
 
 registerLocaleData(en);
 
 @NgModule({
-  declarations: [AppComponent, RegisterComponent],
+  declarations: [AppComponent, RegisterComponent, LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
